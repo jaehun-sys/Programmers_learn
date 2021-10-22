@@ -7,10 +7,18 @@ public class 오픈채팅방 {
         String[][] recordArr = new String[record.length][];
         for(int i=0; i<record.length; i++) {
         	recordArr[i] = record[i].split(" ");
+        	for(int k=0; k<recordArr[i].length; k++) {
+        		System.out.print(recordArr[i][k] + " ");
+        	}
+        	System.out.println();
 
         	//첫 단어 확인
         	if(recordArr[i][0].equals("Enter")) {
-        		
+        		for(int j=0; j<recordArr.length; j++) {
+//        			if(recordArr[i][1].equals(recordArr[j][1])) {
+//        				recordArr[j][2] = recordArr[i][2];	//이름 바꾸기
+//        			}
+        		}
         	}
         	else if(recordArr[i][0].equals("Leave")) {
         		
