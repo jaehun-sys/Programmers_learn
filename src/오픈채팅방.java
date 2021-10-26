@@ -15,9 +15,9 @@ public class 오픈채팅방 {
         	//첫 단어 확인
         	if(recordArr[i][0].equals("Enter")) {
         		for(int j=0; j<recordArr.length; j++) {
-//        			if(recordArr[i][1].equals(recordArr[j][1])) {
-//        				recordArr[j][2] = recordArr[i][2];	//이름 바꾸기
-//        			}
+        			if(recordArr[i][1].equals(recordArr[j][1])) {
+        				recordArr[j][2] = recordArr[i][2];	//이름 바꾸기
+        			}
         		}
         	}
         	else if(recordArr[i][0].equals("Leave")) {
