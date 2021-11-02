@@ -6,7 +6,7 @@ public class 오픈채팅방 {
 
         String[][] recordArr = new String[record.length][];
         for(int i=0; i<record.length; i++) {
-        	recordArr[i] = record[i].split(" ");
+        	recordArr[i] = record[i].split(" ");//단어별로 저장
         	for(int k=0; k<recordArr[i].length; k++) {
         		System.out.print(recordArr[i][k] + " ");
         	}
