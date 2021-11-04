@@ -11,7 +11,6 @@ public class 오픈채팅방 {
         		System.out.print(recordArr[i][k] + " ");
         	}
         	System.out.println();
-
         	//첫 단어 확인
         	if(recordArr[i][0].equals("Enter")) {
         		for(int j=0; j<recordArr.length; j++) {
