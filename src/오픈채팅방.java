@@ -29,6 +29,7 @@ public class 오픈채팅방 {
         	}
 
         } 
+        System.out.println("바뀐후");
         for(int i=0; i<recordArr.length; i++) {
         	for(int j=0; j<recordArr[i].length; j++) {
         		System.out.print(recordArr[i][j] + " ");
