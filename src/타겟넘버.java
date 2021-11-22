@@ -31,14 +31,14 @@ public class Å¸°Ù³Ñ¹ö {
 		Queue<Integer> queue = new LinkedList<>();
 
 		
-		Stack<Integer> stack = new Stack<>();
-		stack.push(4);
-		stack.push(3);
-		stack.push(2);
-		stack.push(5);
-		System.out.println(stack);
-		stack.pop();
-		System.out.println(stack);
+//		Stack<Integer> stack = new Stack<>();
+//		stack.push(4);
+//		stack.push(3);
+//		stack.push(2);
+//		stack.push(5);
+//		System.out.println(stack);
+//		stack.pop();
+//		System.out.println(stack);
 
 	}
 
