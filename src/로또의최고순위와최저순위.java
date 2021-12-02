@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class ·Î¶ÇÀÇÃÖ°í¼øÀ§¿ÍÃÖÀú¼øÀ§ {
+public class ë¡œë˜ì˜ìµœê³ ìˆœìœ„ì™€ìµœì €ìˆœìœ„ {
 
 	public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
-        int count = 0;  //ÀÏÄ¡ÇÏ´Â ¹øÈ£ °³¼ö
-        int zeroCount = 0;  //0 °³¼ö
+        int count = 0;  //ì¼ì¹˜í•˜ëŠ” ë²ˆí˜¸ ê°œìˆ˜
+        int zeroCount = 0;  //0 ê°œìˆ˜
         
         for(int i=0; i<lottos.length; i++){
             for(int j=0; j<win_nums.length; j++){
@@ -18,11 +18,11 @@ public class ·Î¶ÇÀÇÃÖ°í¼øÀ§¿ÍÃÖÀú¼øÀ§ {
             }
         }
         
-        int rank = 7-count; //ÃÖÀú ¼øÀ§
+        int rank = 7-count; //ìµœì € ìˆœìœ„
         if(rank>6){
             rank = 6;
         }
-        int maxRank = 7-count-zeroCount;    //ÃÖ°í ¼øÀ§
+        int maxRank = 7-count-zeroCount;    //ìµœê³  ìˆœìœ„
         if(maxRank>6){
             maxRank=6;
         }
@@ -36,9 +36,9 @@ public class ·Î¶ÇÀÇÃÖ°í¼øÀ§¿ÍÃÖÀú¼øÀ§ {
 		// TODO Auto-generated method stub
 		int[] lottos = {44,1,0,0,31,25};
 		int[] win_nums = {31,10,45,1,6,19};
-		//´ä:3,5
+		//ë‹µ:3,5
 		
-		·Î¶ÇÀÇÃÖ°í¼øÀ§¿ÍÃÖÀú¼øÀ§ s = new ·Î¶ÇÀÇÃÖ°í¼øÀ§¿ÍÃÖÀú¼øÀ§();
+		ë¡œë˜ì˜ìµœê³ ìˆœìœ„ì™€ìµœì €ìˆœìœ„ s = new ë¡œë˜ì˜ìµœê³ ìˆœìœ„ì™€ìµœì €ìˆœìœ„();
 		System.out.println(Arrays.toString(s.solution(lottos, win_nums)));
 
 	}

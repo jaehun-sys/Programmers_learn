@@ -2,16 +2,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class ¿ÀÇÂÃ¤ÆÃ¹æ {
+public class ì˜¤í”ˆì±„íŒ…ë°© {
 	
 	public String[] solution(String[] record) {
 		/*
 		 * String[] answer = {};
 		 * 
 		 * String[][] recordArr = new String[record.length][]; for(int i=0;
-		 * i<record.length; i++) { recordArr[i] = record[i].split(" ");//´Ü¾îº°·Î ÀúÀå for(int
+		 * i<record.length; i++) { recordArr[i] = record[i].split(" ");//ë‹¨ì–´ë³„ë¡œ ì €ìž¥ for(int
 		 * k=0; k<recordArr[i].length; k++) { System.out.print(recordArr[i][k] + " "); }
-		 * System.out.println(); //Ã¹ ´Ü¾î È®ÀÎ if(recordArr[i][0].equals("Enter")) { for(int
+		 * System.out.println(); //ì²« ë‹¨ì–´ í™•ì¸ if(recordArr[i][0].equals("Enter")) { for(int
 		 * j=0; j<recordArr.length; j++) {
 		 * 
 		 * 
@@ -19,9 +19,9 @@ public class ¿ÀÇÂÃ¤ÆÃ¹æ {
 		 * 
 		 * } else { //change for(int j=0; j<record.length; j++) {
 		 * if(recordArr[i][1].equals(recordArr[j][1])) { recordArr[j][2] =
-		 * recordArr[i][2]; //ÀÌ¸§ ¹Ù²Ù±â } } }
+		 * recordArr[i][2]; //ì´ë¦„ ë°”ê¾¸ê¸° } } }
 		 * 
-		 * } System.out.println("¹Ù²ïÈÄ"); for(int i=0; i<recordArr.length; i++) { for(int
+		 * } System.out.println("ë°”ë€í›„"); for(int i=0; i<recordArr.length; i++) { for(int
 		 * j=0; j<recordArr[i].length; j++) { System.out.print(recordArr[i][j] + " "); }
 		 * System.out.println(); } return answer;
 		 */
@@ -31,20 +31,20 @@ public class ¿ÀÇÂÃ¤ÆÃ¹æ {
 			String[] command = record[i].split(" ");
 
 			if (command[0].equals("Enter")) {
-				arr.add(command[1] + "´ÔÀÌ µé¾î¿Ô½À´Ï´Ù.");
+				arr.add(command[1] + "ë‹˜ì´ ë“¤ì–´ì™”ìŠµë‹ˆë‹¤.");
 				map.put(command[1], command[2]);
 			} else if (command[0].equals("Change")) {
 				map.put(command[1], command[2]);
 			} else {
-				arr.add(command[1] + "´ÔÀÌ ³ª°¬½À´Ï´Ù.");
+				arr.add(command[1] + "ë‹˜ì´ ë‚˜ê°”ìŠµë‹ˆë‹¤.");
 			}
 		}
 		String[] answer = new String[arr.size()];
 		for (int i = 0; i < arr.size(); i++) {
-			int idx = arr.get(i).indexOf("´Ô");
+			int idx = arr.get(i).indexOf("ë‹˜");
 			String id = arr.get(i).substring(0, idx);
 			String[] temp = arr.get(i).split(" ");
-			answer[i] = map.get(id) + "´ÔÀÌ " + temp[1];
+			answer[i] = map.get(id) + "ë‹˜ì´ " + temp[1];
 		}
         return answer;
     }
@@ -53,7 +53,7 @@ public class ¿ÀÇÂÃ¤ÆÃ¹æ {
 		String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo",
 				"Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
 		
-		¿ÀÇÂÃ¤ÆÃ¹æ s = new ¿ÀÇÂÃ¤ÆÃ¹æ();
+		ì˜¤í”ˆì±„íŒ…ë°© s = new ì˜¤í”ˆì±„íŒ…ë°©();
 		System.out.println(Arrays.toString(s.solution(record)));
 
 	}

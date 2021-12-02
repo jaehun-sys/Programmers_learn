@@ -1,5 +1,4 @@
-
-public class ¾ø´Â¼ıÀÚ´õÇÏ±â {
+public class ì—†ëŠ”ìˆ«ìë”í•˜ê¸° {
 	
 
     public int solution(int[] numbers) {
@@ -7,7 +6,7 @@ public class ¾ø´Â¼ıÀÚ´õÇÏ±â {
         
         int[] numeral = {0,1,2,3,4,5,6,7,8,9};
         
-        for(int i=0; i<numbers.length; i++){    //ÇÏ³ªÇÏ³ª ºñ±³.. ½Ã°£º¹Àâµµ´Â??
+        for(int i=0; i<numbers.length; i++){    //í•˜ë‚˜í•˜ë‚˜ ë¹„êµ.. ì‹œê°„ë³µì¡ë„ëŠ”??
             for(int j=0; j<numeral.length; j++){
                 if(numbers[i]==numeral[j]){
                     numeral[j] = 0;
@@ -27,8 +26,8 @@ public class ¾ø´Â¼ıÀÚ´õÇÏ±â {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		¾ø´Â¼ıÀÚ´õÇÏ±â s = new ¾ø´Â¼ıÀÚ´õÇÏ±â();
-		int[] numbers = {1,2,3,4,6,7,8,0};	//´ä : 14
+		ì—†ëŠ”ìˆ«ìë”í•˜ê¸° s = new ì—†ëŠ”ìˆ«ìë”í•˜ê¸°();
+		int[] numbers = {1,2,3,4,6,7,8,0};	//ë‹µ : 14
 		System.out.println(s.solution(numbers));
 
 	}
