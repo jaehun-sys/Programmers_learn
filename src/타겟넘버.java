@@ -2,7 +2,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class Å¸°Ù³Ñ¹ö {
+public class 타겟넘버 {
 
 	public int solution(int[] numbers, int target) {
         int answer = 0;
