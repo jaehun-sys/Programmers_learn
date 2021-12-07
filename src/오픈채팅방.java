@@ -25,8 +25,8 @@ public class 오픈채팅방 {
 		 * j=0; j<recordArr[i].length; j++) { System.out.print(recordArr[i][j] + " "); }
 		 * System.out.println(); } return answer;
 		 */
-		ArrayList<String> arr = new ArrayList();
-		HashMap<String, String> map = new HashMap();
+		ArrayList<String> arr = new ArrayList<>();
+		HashMap<String, String> map = new HashMap<>();
 		for (int i = 0; i < record.length; i++) {
 			String[] command = record[i].split(" ");
 

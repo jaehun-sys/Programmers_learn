@@ -1,7 +1,3 @@
-import java.util.Queue;
-import java.util.LinkedList;
-import java.util.Stack;
-
 public class 타겟넘버 {
 
 	public int solution(int[] numbers, int target) {
@@ -28,7 +24,7 @@ public class 타겟넘버 {
     
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Queue<Integer> queue = new LinkedList<>();
+		//Queue<Integer> queue = new LinkedList<>();
 
 		
 //		Stack<Integer> stack = new Stack<>();
