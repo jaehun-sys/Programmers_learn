@@ -18,7 +18,7 @@ public class 문자열압축 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s1 = "abcabcabcabcdededededede";
+		String s1 = "abcabcabcabcdedededede";
 		String s2 = "aabbaccc";
 		
 		문자열압축 c = new 문자열압축();
