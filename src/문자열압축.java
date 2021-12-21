@@ -6,7 +6,7 @@ public class 문자열압축 {
         
         for(int i=1; i<s.length()/2; i++) {
         	String unit = s.substring(0,i);
-        	int count = 0;
+        	int count = 1;
         	if(unit.equals(s.substring(i+1, 2*i+1))) {
         		System.out.println(i + "번째 규칙 하나 찾음");
         		count++;
