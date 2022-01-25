@@ -1,6 +1,13 @@
 import java.util.Arrays;
 
 public class 괄호변환 {
+	
+
+    public String solution(String p) {
+        String answer = "";
+        return answer;
+    }
+
 
 	
 	public static void main(String[] args) {
