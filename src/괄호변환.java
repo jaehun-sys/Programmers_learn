@@ -5,6 +5,14 @@ public class 괄호변환 {
 
     public String solution(String p) {
         String answer = "";
+        
+        if(p.charAt(p.length()-1)=='(') {
+        	
+        }else {        	
+        	for(int i=0; i<p.length(); i++) {
+        		
+        	}
+        }
         return answer;
     }
 
