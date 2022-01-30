@@ -7,7 +7,7 @@ public class 괄호변환 {
         String answer = "";
         
         if(p.charAt(p.length()-1)=='(') {
-        	d
+        	
         }else {        	
         	for(int i=0; i<p.length(); i++) {
         		
