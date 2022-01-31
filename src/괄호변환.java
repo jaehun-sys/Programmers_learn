@@ -5,6 +5,13 @@ public class 괄호변환 {
 
     public String solution(String p) {
         String answer = "";
+        int count = 0;
+        
+        for(int i=0; i<p.length(); i++) {
+        	if(p.charAt(i)=='(') {
+        		count++;
+        	}
+        }
         
         if(p.charAt(p.length()-1)=='(') {
         	
