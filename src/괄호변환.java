@@ -14,7 +14,7 @@ public class 괄호변환 {
         }
         
         if(p.charAt(p.length()-1)=='(') {
-        	 dss
+        	 
         }else {        	
         	for(int i=0; i<p.length(); i++) {
         		
