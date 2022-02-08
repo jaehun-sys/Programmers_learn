@@ -54,6 +54,7 @@ public class 오픈채팅방 {
 				"Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
 		
 		오픈채팅방 s = new 오픈채팅방();
+		
 		System.out.println(Arrays.toString(s.solution(record)));
 
 	}

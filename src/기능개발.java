@@ -1,5 +1,6 @@
-import java.util.Stack;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Stack;
 
 public class 기능개발 {
 	
@@ -34,7 +35,10 @@ public class 기능개발 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		기능개발 s = new 기능개발();
+		int[] a = {93,30,55};
+		int[] b = {1,30,5};
+		System.out.println(Arrays.toString(s.solution(a, b)));
 
 	}
 
