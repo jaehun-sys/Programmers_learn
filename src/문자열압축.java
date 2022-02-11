@@ -4,7 +4,7 @@ public class 문자열압축 {
 	public int solution(String s) {
         int answer = 0;
         
-        for(int i=1; i<s.length()/2; i++) {
+        for(int i=1; i<s.length()/2+1; i++) {
         	String unit = s.substring(0,i);
         	int count = 1;
         	if(unit.equals(s.substring(i+1, 2*i+1))) {
