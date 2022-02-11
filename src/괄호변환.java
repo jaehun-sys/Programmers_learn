@@ -9,7 +9,7 @@ public class 괄호변환 {
         
         for(int i=0; i<p.length(); i++) {
         	if(p.charAt(i)=='(') {
-        		count++;
+        		count++; 
         	}
         }
         
