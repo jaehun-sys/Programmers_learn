@@ -21,7 +21,6 @@ public class 괄호변환 {
         }
         return answer;
     }
-
 	
 	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
