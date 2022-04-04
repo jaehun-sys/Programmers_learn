@@ -12,6 +12,7 @@ public class 괄호변환 {
 		// TODO Auto-generated method stub
 		
 		괄호변환 s = new 괄호변환();
+		
 //		int[] a = {93,30,55};
 //		int[] b = {1,30,5};
 		
