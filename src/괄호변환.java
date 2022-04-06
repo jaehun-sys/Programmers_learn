@@ -8,8 +8,7 @@ public class 괄호변환 {
     }
 	
 	public static void main(String[] args) { 
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stubss
 		괄호변환 s = new 괄호변환();
 		
 //		int[] a = {93,30,55};
