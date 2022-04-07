@@ -5,6 +5,7 @@ public class 괄호변환 {
         String answer = "";
         //int count = 0;       
         return answer;
+        
     }
 	
 	public static void main(String[] args) { 
