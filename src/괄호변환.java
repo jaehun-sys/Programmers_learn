@@ -24,6 +24,7 @@ public class 괄호변환 {
 		int leftLimit = 97; // numeral '0'
 	    int rightLimit = 122; // letter 'z'
 	    int targetStringLength = 10;
+	    
 		for(int i=0; i<141; i++) {
 			String randomStr = random.ints(leftLimit, rightLimit + 1)
                     .filter(k -> (k <= 57 || k >= 65) && (k <= 90 || k >= 97))
