@@ -15,10 +15,9 @@ public class 괄호변환 {
 		String a = "(()())()";
 		String b = ")(";
 		String c = "()))((()";
-		
 		System.out.println(s.solution(a));
-		
 		Random random = new Random();
+		
 		int leftLimit = 97; // numeral '0'
 	    int rightLimit = 122; // letter 'z'
 	    int targetStringLength = 10;
