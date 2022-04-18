@@ -16,6 +16,7 @@ public class 괄호변환 {
 		String b = ")(";
 		String c = "()))((()";
 		System.out.println(s.solution(a));
+		
 		Random random = new Random();
 		
 		int leftLimit = 97; // numeral '0'
