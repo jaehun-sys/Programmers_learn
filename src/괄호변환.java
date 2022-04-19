@@ -29,7 +29,6 @@ public class 괄호변환 {
                     .limit(targetStringLength)
                     .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
                     .toString(); 
-			
 			System.out.println(randomStr +  random.nextInt(9999) + "@metanet.co.kr");
 		}
 	}
