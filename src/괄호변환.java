@@ -32,5 +32,6 @@ public class 괄호변환 {
                     .toString();
 			System.out.println(randomStr +  random.nextInt(9999) + "@metanet.co.kr");
 		}
+		
 	}
 }
