@@ -16,7 +16,7 @@ public class 괄호변환 {
 		
 		String a = "(()())()";
 		String b = ")(";
-		String c = "()))((()";
+		String c = "()))((()"; 
 		System.out.println(s.solution(a));
 		
 		Random random = new Random();
